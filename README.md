@@ -1,0 +1,2 @@
+# RiCard
+Blockchain exam project
