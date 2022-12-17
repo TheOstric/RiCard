@@ -1,0 +1,106 @@
+﻿body {
+    /* Stili per i titoli: Gill Sans per h1, Gill Sans MT per h2, Trebuchet MS per h3. sans-serif per h4  */
+    font-family: 'Noto Sans HK', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+}
+
+.content h1 {
+    text-align: center;
+    color: white;
+ 
+}
+.content h2 {
+    text-align: center;
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.content {
+    background-color: chocolate;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+.buttonsection {
+    padding-top: 90px;
+    padding-bottom: 400px;
+    text-align:center;
+ background-color: chocolate;
+}
+.button2 {
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    padding: 30px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: center;
+    box-shadow: rgb(10, 133, 152) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    cursor: pointer;
+    transition: all 250ms;
+    border: 0;
+}
+
+    .button2:hover {
+        padding: 50px 80px;
+        background-color: rgb(10, 133, 152);
+    }
+
+.beads {
+    list-style: none;
+    background: chocolate;
+    margin: 0;
+    padding-left: 40px;
+    border-radius: 5px;
+    color: floralwhite;
+    text-align:center;
+}
+
+    .beads li {
+        color: floralwhite;
+        font-family: 'Noto Sans HK', sans-serif;
+        line-height: 40px;
+        border-bottom: 1px solid rgb(10, 133, 152);
+        position: relative;
+
+    }
+
+
+    .beads li:last-child {
+        border-bottom: none;
+    }
+
+    .beads li:before, .beads li:after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .beads li:before {
+        top: calc(50% - 5px);
+        background: white;
+        left: -22px;
+        width: 10px;
+        height: 10px;
+        transition: 0.5s linear;
+    }
+    
+        .beads li:after {
+            bottom: 6px;
+            left: -20px;
+            width: 6px;
+            height: 6px;
+        }
+
+        .beads li:hover:before {
+            background: rgb(10, 133, 152);
+        }
