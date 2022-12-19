@@ -22,7 +22,7 @@
     width: 50%;
 }
 .content {
-    background-color: chocolate;
+    background-color: #d2691eb6;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 30px;
@@ -31,8 +31,7 @@
 .buttonsection {
     padding-top: 90px;
     padding-bottom: 400px;
-    text-align:center;
- background-color: chocolate;
+    text-align: center;
 }
 .button2 {
     background-color: black;
@@ -57,12 +56,12 @@
 
 .beads {
     list-style: none;
-    background: chocolate;
+    background: #d2691eb6;
     margin: 0;
     padding-left: 40px;
     border-radius: 5px;
     color: floralwhite;
-    text-align:center;
+    text-align: center;
 }
 
     .beads li {
